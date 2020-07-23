@@ -50,8 +50,9 @@ Open vsCode and select the file [nfl.sql](nfl.sql). On this file is where you wi
 <hr>
 &#x1F534; COMMIT 3<br>
 "Commit: NFL - wow there's a lot of nfl data"
-<hr>
-### Hungry for more?
+
+
+## Hungry for more?
 
 9.  The player with the highest salary in the NFL
 10. The name and position of the first 100 players with the lowest salaries
