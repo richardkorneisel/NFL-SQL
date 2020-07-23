@@ -1,5 +1,3 @@
-![ga](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
-
 # The NFL
 
 ## Setup 
@@ -23,25 +21,16 @@ INSERT 0 32
 INSERT 0 1532
 ```
 - Now that your database was created and seeded go ahead and open **pgAdmin** and you will find a database named **nfl**
-<hr>
-&#x1F534; COMMIT 1<br>
+
+:red_circle:  COMMIT 1
 "Commit: NFL - I seeded the database with the players and teams info"
 <hr>
 
-### Step 2
-Record your answers to Step 3 in a file called [nfl.sql](nfl.sql).
-
-_Challenge_: Complete each part with a single SQL expression. That is
-possible, but for some queries, it will involve learning how to use compound SQL
-expressions.
+### Exercise
+Open vsCode and select the file [nfl.sql](nfl.sql). On this file is where you will submit your queries for each prompt. Few free to write your queries using the **pgAdmin**, but make sure to copy and paste the final queries into the nfl.sql file. :wink:
+<br>
 
 
-### Step 3 - Queries
-
-Some queries may require more than one command (i.e. you may need to get information about a team before you can complete a query for players). Test each command in PSQL to make sure it is correct.
-
-_Hint_: In order to do some parts you will need to research commands we did
-not cover in class.
 
 1.  List the names of all NFL teams
 2.  List the stadium name and head coach of all NFC teams
@@ -62,6 +51,7 @@ not cover in class.
 &#x1F534; COMMIT 3<br>
 "Commit: NFL - wow there's a lot of nfl data"
 <hr>
+### Hungry for more?
 
 9.  The player with the highest salary in the NFL
 10. The name and position of the first 100 players with the lowest salaries
@@ -69,16 +59,3 @@ not cover in class.
 12. The names of all the players on the Buffalo Bills
 13. The total salary of all players on the New York Giants
 14. The player with the lowest salary on the Green Bay Packers
-
-_Hint_: In order to do some parts you will need to research commands we did
-not cover in class.
-
-=======
-<hr>
-&#x1F534; COMMIT 4<br>
-"Commit: NFL - Finished the nfl queries"
-<hr>
-
-
-### Hungry for more?
-This data seems dated. Add a column to both tables with the year, using DATE (as opposed to just entering a number). Record your update, in the nfl sql file, and do a query for one row and copy paste it to show the update.
