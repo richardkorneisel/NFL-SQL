@@ -30,14 +30,11 @@ INSERT 0 1532
 Open vsCode and select the file [nfl.sql](nfl.sql). On this file is where you will submit your queries for each prompt. Few free to write your queries using the **pgAdmin**, but make sure to copy and paste the final queries into the nfl.sql file. :wink:
 <br>
 
-
-
 1.  List the names of all NFL teams
 2.  List the stadium name and head coach of all NFC teams
 3.  List the head coaches of the AFC South
 4.  The total number of players in the NFL
 
-<hr>
 &#x1F534; COMMIT 2<br>
 "Commit: NFL - queried some NFL stuff"
 <hr>
@@ -47,7 +44,6 @@ Open vsCode and select the file [nfl.sql](nfl.sql). On this file is where you wi
 7.  The average salary of all NFL players
 8.  The names and positions of players with a salary above 10_000_000
 
-<hr>
 &#x1F534; COMMIT 3<br>
 "Commit: NFL - wow there's a lot of nfl data"
 
