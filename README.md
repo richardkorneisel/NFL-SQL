@@ -22,8 +22,6 @@ INSERT 0 1532
 ```
 - Now that your database was created and seeded go ahead and open **pgAdmin** and you will find a database named **nfl**
 
-:red_circle:  COMMIT 1
-"Commit: NFL - I seeded the database with the players and teams info"
 <hr>
 
 ### Exercise
@@ -35,7 +33,7 @@ Open vsCode and select the file [nfl.sql](nfl.sql). On this file is where you wi
 3.  List the head coaches of the AFC South
 4.  The total number of players in the NFL
 
-&#x1F534; COMMIT 2<br>
+&#x1F534; COMMIT 1<br>
 "Commit: NFL - queried some NFL stuff"
 <hr>
 
@@ -44,9 +42,9 @@ Open vsCode and select the file [nfl.sql](nfl.sql). On this file is where you wi
 7.  The average salary of all NFL players
 8.  The names and positions of players with a salary above 10_000_000
 
-&#x1F534; COMMIT 3<br>
+&#x1F534; COMMIT 2<br>
 "Commit: NFL - wow there's a lot of nfl data"
-
+<hr>
 
 ## Hungry for more?
 
@@ -56,3 +54,7 @@ Open vsCode and select the file [nfl.sql](nfl.sql). On this file is where you wi
 12. The names of all the players on the Buffalo Bills
 13. The total salary of all players on the New York Giants
 14. The player with the lowest salary on the Green Bay Packers
+
+&#x1F534; COMMIT 2<br>
+"Commit: NFL - Poor Shaky Smithson"
+
