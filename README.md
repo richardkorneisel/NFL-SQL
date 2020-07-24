@@ -55,6 +55,6 @@ Open vsCode and select the file [nfl.sql](nfl.sql). On this file is where you wi
 13. The total salary of all players on the New York Giants
 14. The player with the lowest salary on the Green Bay Packers
 
-&#x1F534; COMMIT 2<br>
+&#x1F534; COMMIT 3<br>
 "Commit: NFL - Poor Shaky Smithson"
 
