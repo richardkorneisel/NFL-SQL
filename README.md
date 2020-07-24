@@ -1,4 +1,5 @@
 # The NFL
+This assignment will give you more practice with queries, and get you to deal with some more advanced parts of the sql language.
 
 ## Setup 
 - Fork and clone this repo.
