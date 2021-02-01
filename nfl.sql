@@ -1,14 +1,17 @@
 -- 1. List the names of all NFL teams'
-
+select * from teams;
+List of 32 teams.
 
 -- 2. List the stadium name and head coach of all NFC teams
-
+select stadium, head_coach from teams;
+List of 32 stadiums and head coaches.
 
 -- 3. List the head coaches of the AFC South
-
-
+select head_coach from teams where conference = 'AFC';
+List of 16 coaches.
 -- 4. The total number of players in the NFL
-
+select count(*) from players;
+1532
 
 -- "COMMIT: NFL - queried some NFL stuff"
 
