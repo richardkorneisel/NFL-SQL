@@ -45,13 +45,26 @@ List of 21 positions and player names
 -- HUNGRY FOR MORE!!!!!!!
 
 -- 9. The player with the highest salary in the NFL
-
+select name, salary from players order by salary desc limit 1;
+"Peyton Manning"	18000000
 -- 10. The name and position of the first 100 players with the lowest salaries
-
+select name, salary from players order by salary asc limit 100;
+List of 100
 -- 11. The average salary for a DE in the nfl
-
+select avg(salary)::numeric(10,2) from players
+	where position = 'DE';
+2161326.38
 -- 12. The names of all the players on the Buffalo Bills
-
+SELECT players.name, teams.name
+From players, teams
+WHERE players.team_id = teams.id and teams.name = 'Buffalo Bills';
+59 players
 -- 13. The total salary of all players on the New York Giants
-
+SELECT sum(players.salary)::numeric(10,2)
+From players, teams
+WHERE players.team_id = teams.id and teams.name = 'New York Giants';
+74179466.00
 -- 14. The player with the lowest salary on the Green Bay Packers
+SELECT players.name, players.salary, teams.name
+From players, teams
+WHERE players.team_id = teams.id and teams.name = 'Green Bay Packers' order by players.salary asc limit 1;
